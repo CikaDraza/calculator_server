@@ -1,0 +1,28 @@
+{
+  "name": "calculator_server",
+  "version": "1.0.0",
+  "description": "solar panel calculator with google api",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "geotiff": "^2.1.3",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.0.3"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "solar",
+    "panel",
+    "calculator"
+  ],
+  "author": "Milan",
+  "license": "ISC"
+}
